@@ -1,0 +1,137 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Is Anyone here",
+        "How are you",
+        "Good evening",
+        "What's up?",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! I am your virtual assistant, How can I assist you today?",
+        "Hi there! I am here, What can I do for you?",
+        "Greetings! How may I help?",
+        "I am doing well, thank you! How can I assist you?"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Talk to you soon",
+        "bye",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon!",
+        "Take care!",
+        "Goodbye! Safe travels!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "name_query",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Tell me your name",
+        "Do you have a name?"
+      ],
+      "responses": [
+        "I'm your AI virtual assistant.",
+        "I am a virtual assistant created to help you.",
+        "You can call me your virtual assistant."
+      ]
+    },
+    {
+      "tag": "book_flight",
+      "patterns": [
+        "I want to book a flight",
+        "Book a flight for me",
+        "Can you help me book a flight?",
+        "Reserve a flight",
+        "Find flights to New York",
+        "Get me a ticket to London",
+        "I need to fly to Paris next week"
+      ],
+      "responses": [
+        "Sure, I can help you book a flight. Where would you like to go?",
+        "Let's get your flight booked! Please tell me your destination, travel date, and number of passengers."
+      ]
+    },
+    {
+      "tag": "available_flights",
+      "patterns": ["show flights", "list airlines", "what flights are available"],
+      "responses": ["Available airlines: Delta, Cathay Pacific, Dutch Airlines, Emirates, Qatar Airways"]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Tell me the weather",
+        "Is it raining today?",
+        "Will it be sunny tomorrow?",
+        "Weather forecast for this week"
+      ],
+      "responses": [
+        "Please tell me your location so I can check the weather.",
+        "Could you specify the city or area for the weather update?"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why did the computer show up at work late? It had a hard drive!",
+        "Why do programmers prefer dark mode? Because light attracts bugs!"
+      ]
+    },
+    {
+      "tag": "conversation_advanced",
+      "patterns": [
+        "What do you think about artificial intelligence?",
+        "Can you explain quantum computing?",
+        "How do neural networks work?",
+        "Tell me about machine learning",
+        "What is deep learning?"
+      ],
+      "responses": [
+        "Artificial intelligence is a field focused on creating smart machines capable of performing tasks that typically require human intelligence.",
+        "Quantum computing uses quantum bits to perform computations much faster for certain problems compared to classical computers.",
+        "Neural networks are computing systems inspired by the human brain, used for pattern recognition and decision making.",
+        "Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.",
+        "Deep learning is a type of machine learning using multi-layered neural networks for complex tasks like image and speech recognition."
+      ]
+    }
+  ]
+}
